@@ -46,7 +46,7 @@ export class OptionsComponent {
     const busies = [];
     const promise = new Promise<void>(resolve => {
       setTimeout(() => {
-        resolve();
+        resolve(null);
         console.log('Promise finished!');
       }, 3000);
     });
